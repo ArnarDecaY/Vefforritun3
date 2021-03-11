@@ -171,5 +171,5 @@ app.delete("/api/v1/boards/:boardId/tasks/:taskId", function (request, response)
 
 //Start the server
 app.listen(port, () => {
-    console.log('Event app listening...');
+    console.log('Event app listening...' + port);
 });
