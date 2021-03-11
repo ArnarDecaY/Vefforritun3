@@ -13,7 +13,7 @@ const app = express();
 var port = process.env.PORT || 3000;
 
 //Tell express to use the body parser module
-app.use(bodyParser.json());
+app.use(express.static('boardbackend'))
 
 //Tell express to use cors -- enables CORS for this backend
 app.use(cors());  
